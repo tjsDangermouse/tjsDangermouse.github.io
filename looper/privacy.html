@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<title>Privacy Policy — Looper</title>
+<meta name="description" content="Privacy policy for Looper, a walking and running route app for iPhone and Apple Watch." />
+<style>
+  :root {
+    color-scheme: light dark;
+    --ground: #edf1e8;
+    --paper: #f8faf5;
+    --ink: #18221b;
+    --muted: #58645b;
+    --rule: #c8d1c7;
+    --route: #176f5b;
+    --water: #39788f;
+    --mark: #d9e8dc;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { background: var(--ground); }
+
+  body {
+    margin: 0;
+    color: var(--ink);
+    background:
+      linear-gradient(115deg, transparent 0 46%, rgba(23, 111, 91, 0.055) 46% 46.5%, transparent 46.5% 100%),
+      var(--ground);
+    font-family: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main {
+    width: min(100% - 2rem, 46rem);
+    margin: 0 auto;
+    padding: clamp(2.5rem, 8vw, 5.5rem) 0 4rem;
+  }
+
+  header {
+    position: relative;
+    padding: 0 0 2rem 1.4rem;
+    border-left: 0.3rem solid var(--route);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  header::after {
+    content: "";
+    position: absolute;
+    left: -0.55rem;
+    bottom: -0.3rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.18rem solid var(--paper);
+    border-radius: 50%;
+    background: var(--route);
+  }
+
+  .app-name {
+    margin: 0 0 0.45rem;
+    color: var(--route);
+    font-size: 0.9rem;
+    font-weight: 750;
+  }
+
+  h1 {
+    max-width: 12ch;
+    margin: 0;
+    font-size: clamp(2.45rem, 10vw, 4.8rem);
+    font-weight: 780;
+    letter-spacing: -0.055em;
+    line-height: 0.95;
+  }
+
+  .updated {
+    margin: 1rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .summary {
+    margin: 2.5rem 0;
+    padding: 1.2rem 1.35rem;
+    border: 1px solid var(--rule);
+    border-radius: 0.7rem;
+    background: color-mix(in srgb, var(--paper) 90%, transparent);
+    font-size: 1.08rem;
+  }
+
+  section { margin-top: 2.5rem; }
+
+  h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+  }
+
+  p { margin: 0 0 1rem; }
+
+  ul {
+    margin: 0 0 1rem;
+    padding-left: 1.3rem;
+  }
+
+  li { margin-bottom: 0.55rem; }
+  li::marker { color: var(--route); }
+
+  a {
+    color: var(--water);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.16em;
+  }
+
+  a:hover { text-decoration-thickness: 0.14em; }
+
+  a:focus-visible {
+    outline: 0.18rem solid var(--water);
+    outline-offset: 0.2rem;
+    border-radius: 0.1rem;
+  }
+
+  .note {
+    padding: 1rem 1.15rem;
+    border-radius: 0.7rem;
+    background: var(--mark);
+  }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #101713;
+      --paper: #18201a;
+      --ink: #edf3eb;
+      --muted: #a9b5a9;
+      --rule: #39453b;
+      --route: #66c6a7;
+      --water: #83c8df;
+      --mark: #213329;
+    }
+  }
+
+  @media print {
+    body { background: #fff; color: #111; }
+    main { width: 100%; padding: 0; }
+    a { color: inherit; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="app-name">Looper for iPhone and Apple Watch</p>
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated: 20 September 2026</p>
+  </header>
+
+  <p class="summary">
+    Looper uses your location to plan and guide walks and runs. It has no
+    accounts, advertising, cross-app tracking, or analytics, and it does not
+    sell personal information.
+  </p>
+
+  <section>
+    <h2>Location and route planning</h2>
+    <p>
+      When Remote routing is selected, Looper sends your precise starting point
+      and any waypoints you choose to the Looper routing service. It also sends
+      the kind and length of route you requested and may send outlines of routes
+      already offered so that it can return different choices. This information
+      is used only to generate routes and keep the service reliable.
+    </p>
+    <p>
+      Completed route answers and the request details used to find them may be
+      held in the service's memory for up to 10 minutes so an identical request
+      can be answered efficiently. Precise coordinates are not written to
+      Looper's production logs. The service briefly uses your IP address in
+      memory to limit excessive requests; the app does not use it to build a
+      profile or identify you.
+    </p>
+    <p>
+      During a walk or run, your live position and recorded track stay on your
+      devices. They are not sent to the Looper routing service.
+    </p>
+    <p>
+      When On-device routing is selected, the route itself is calculated on
+      your iPhone. To obtain nearby walking-path data, the app sends the bounds
+      of the required map area to one of several public OpenStreetMap Overpass
+      API providers. The request also reveals your IP address to that provider.
+      Looper stores the downloaded path data in its private storage so it can be
+      reused and lets you clear it in Settings.
+    </p>
+  </section>
+
+  <section>
+    <h2>Maps</h2>
+    <p>
+      The iPhone app downloads map styles and tiles from OpenFreeMap. Those
+      requests necessarily reveal your IP address and the map area requested to
+      OpenFreeMap and its delivery providers. OpenFreeMap says it uses no cookies
+      or tracking technologies, does not store IP addresses in normal server
+      logs, and may temporarily log them during a security incident. Read the
+      <a href="https://openfreemap.org/privacy/">OpenFreeMap privacy policy</a>.
+    </p>
+    <p>
+      Map tiles downloaded for offline guidance are stored on your iPhone for
+      the current outing and removed when it ends. Apple supplies the standard
+      map shown by the Watch app; data Apple processes is governed by Apple's
+      privacy policy.
+    </p>
+  </section>
+
+  <section>
+    <h2>Apple Health and workouts</h2>
+    <p>
+      If you grant permission, Looper saves completed walks and runs, including
+      their route and workout measurements, to Apple Health. On Apple Watch it
+      may read heart rate, walking or running distance, and active energy for the
+      workout so it can show progress and save a complete workout.
+    </p>
+    <p>
+      Health and workout information is handled on your iPhone, Apple Watch, and
+      in Apple Health. Looper does not send it to the developer's servers, use it
+      for advertising, or share it with data brokers. You can change Looper's
+      Health access at any time in the Health app or Settings.
+    </p>
+  </section>
+
+  <section>
+    <h2>Information kept on your devices</h2>
+    <p>Looper stores information needed to provide its features, including:</p>
+    <ul>
+      <li>app settings, pace preferences, and voice choice;</li>
+      <li>your last route and routes you mark as favourites;</li>
+      <li>the current outing, so it can recover after an interruption;</li>
+      <li>workout and navigation state shared between your paired iPhone and Apple Watch; and</li>
+      <li>temporary navigation and routing diagnostics used during testing.</li>
+    </ul>
+    <p>
+      This information is stored in the app's private storage. Diagnostic files
+      leave your device only if you deliberately export and share them using the
+      system share sheet. Deleting the app removes its local information, while
+      workouts already saved in Apple Health remain under your control there.
+    </p>
+  </section>
+
+  <section>
+    <h2>What Looper does not do</h2>
+    <ul>
+      <li>No account or sign-in is required.</li>
+      <li>No advertising or marketing SDK is included.</li>
+      <li>No data is used to track you across apps or websites.</li>
+      <li>No personal information is sold.</li>
+      <li>No Health information is used for advertising or data mining.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Your choices</h2>
+    <p>
+      You can decline or revoke location and Health permissions in Settings.
+      Some route planning, navigation, map, or workout features will then be
+      unavailable, but Looper does not require an account and holds no account
+      record for you to delete.
+    </p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>
+      Looper is not directed at children and does not knowingly collect account
+      or contact information from them. Its location and workout features use
+      the same device permissions and practices described above for every user.
+    </p>
+  </section>
+
+  <section class="note">
+    <h2>Contact</h2>
+    <p>
+      For privacy questions or requests, email
+      <a href="mailto:simon@woollams.com">simon@woollams.com</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>
+      If Looper's data practices change, this page will be updated and the date
+      at the top will be revised.
+    </p>
+  </section>
+
+  <footer>
+    Looper &middot; loop walks and runs with iPhone and Apple Watch
+  </footer>
+</main>
+</body>
+</html>
