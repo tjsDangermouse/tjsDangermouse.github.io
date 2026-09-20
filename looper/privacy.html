@@ -175,29 +175,14 @@
   <section>
     <h2>Location and route planning</h2>
     <p>
-      When Remote routing is selected, Looper sends your precise starting point
-      and any waypoints you choose to the Looper routing service. It also sends
-      the kind and length of route you requested and may send outlines of routes
-      already offered so that it can return different choices. This information
-      is used only to generate routes and keep the service reliable.
+      Routes are calculated on your iPhone. Looper does not send your starting
+      point, waypoints, planned routes, live position, or recorded track to the
+      developer's servers.
     </p>
     <p>
-      Completed route answers and the request details used to find them may be
-      held in the service's memory for up to 10 minutes so an identical request
-      can be answered efficiently. Precise coordinates are not written to
-      Looper's production logs. The service briefly uses your IP address in
-      memory to limit excessive requests; the app does not use it to build a
-      profile or identify you.
-    </p>
-    <p>
-      During a walk or run, your live position and recorded track stay on your
-      devices. They are not sent to the Looper routing service.
-    </p>
-    <p>
-      When On-device routing is selected, the route itself is calculated on
-      your iPhone. To obtain nearby walking-path data, the app sends the bounds
-      of the required map area to one of several public OpenStreetMap Overpass
-      API providers. The request also reveals your IP address to that provider.
+      To obtain nearby walking-path data, the app sends the bounds of the
+      required map area to one of several public OpenStreetMap Overpass API
+      providers. The request also reveals your IP address to that provider.
       Looper stores the downloaded path data in its private storage so it can be
       reused and lets you clear it in Settings.
     </p>
